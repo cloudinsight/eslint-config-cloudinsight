@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-cloudinsight",
+  "version": "0.0.0",
+  "description": "eslint config use by cloudinsight",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --config index.js --ext=js,es6,jsx ./example ./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudinsight/eslint-config-cloudinsight.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "wyvernnot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloudinsight/eslint-config-cloudinsight/issues"
+  },
+  "homepage": "https://github.com/cloudinsight/eslint-config-cloudinsight#readme",
+  "optionalDependencies": {
+    "babel-eslint": "^6.0.2",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.3.0"
+  }
+}
