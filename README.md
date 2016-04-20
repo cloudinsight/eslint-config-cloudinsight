@@ -40,7 +40,7 @@ npm run-script eslint
 node_modules/.bin/eslint --ext es6,jsx,js --format checkstyle -o checkstyle.xml ./src || true
 ```
 
-[截图](/screenshot.png)
+![截图](/screenshot.png)
 
 ## 参考资料
 
