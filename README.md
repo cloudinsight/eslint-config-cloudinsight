@@ -4,17 +4,17 @@
 [![](https://img.shields.io/npm/dm/eslint-config-cloudinsight.svg)](http://npm-stat.com/charts.html?package=eslint-config-cloudinsight)
 [![](https://img.shields.io/npm/l/eslint-config-cloudinsight.svg)](https://github.com/cloudinsight/eslint-config-cloudinsight/blob/master/LICENSE)
 
-基于 Airbnb 的 eslint 配置
+这是 CloudInsight 用到的基于 Airbnb 的 eslint 配置，它能够很好的统一前端的编码风格。
 
-[截图](/screenshot.png)
+## 新手指南
 
-## 安装 eslint 和相关的模块
+### 安装 eslint 和相关的模块
 
 ```sh
-npm install eslint@2 babel-eslint@6 eslint-config-cloudinsight@1 eslint-config-airbnb@6 eslint-plugin-react@4 --save-dev
+npm install eslint-config-cloudinsight@1 eslint@2 babel-eslint@6 eslint-config-airbnb@6 eslint-plugin-react@4 --save-dev
 ```
 
-## 项目目录下新建 .eslintrc.json
+### 在项目目录下新建 .eslintrc.json 这是 eslint 的默认配置文件
 
 ```
 {
@@ -33,6 +33,14 @@ npm install eslint@2 babel-eslint@6 eslint-config-cloudinsight@1 eslint-config-a
 ```sh
 npm run-script eslint
 ```
+
+### 加到你的 CI 环境里
+
+```sh
+node_modules/.bin/eslint --ext es6,jsx,js --format checkstyle -o checkstyle.xml ./src || true
+```
+
+[截图](/screenshot.png)
 
 ## 参考资料
 
