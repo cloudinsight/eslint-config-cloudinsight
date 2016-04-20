@@ -16,7 +16,7 @@ npm install eslint-config-cloudinsight@1 eslint@2 babel-eslint@6 eslint-config-a
 
 ### 在项目目录下新建 .eslintrc.json 这是 eslint 的默认配置文件
 
-```
+```json
 {
   "extends": "cloudinsight"
 }
@@ -24,8 +24,13 @@ npm install eslint-config-cloudinsight@1 eslint@2 babel-eslint@6 eslint-config-a
 
 ### 在项目 package.json 的 scripts 新加一项
 
-```
-"eslint":"eslint --ext=js,es6,jsx ./src"
+```json
+{
+  "scripts":{
+    "eslint":"eslint --ext=js,es6,jsx ./src"
+  }
+  ...
+}
 ```
 
 ### 运行 eslint 检查
@@ -39,6 +44,8 @@ npm run-script eslint
 ```sh
 node_modules/.bin/eslint --ext es6,jsx,js --format checkstyle -o checkstyle.xml ./src || true
 ```
+
+------
 
 ![截图](/screenshot.png)
 
