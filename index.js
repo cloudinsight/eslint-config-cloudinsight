@@ -11,8 +11,7 @@ module.exports = {
     mocha: true
   },
   globals: {
-    BlueWare: false,
-    Highcharts: false
+    BlueWare: false
   },
   parserOptions: {
     ecmaVersion: 6,
