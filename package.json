@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cloudinsight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config use by cloudinsight",
   "main": "index.js",
   "scripts": {
