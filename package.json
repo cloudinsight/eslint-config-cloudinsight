@@ -4,7 +4,7 @@
   "description": "eslint config use by cloudinsight",
   "main": "index.js",
   "scripts": {
-    "test": "eslint --config index.js --ext=js,es6,jsx ./example ./package.json"
+    "test": "eslint --config index.js --ext=js,es6,jsx ./example"
   },
   "repository": {
     "type": "git",
