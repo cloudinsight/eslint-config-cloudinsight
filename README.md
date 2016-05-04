@@ -52,3 +52,7 @@ node_modules/.bin/eslint --ext es6,jsx,js --format checkstyle -o checkstyle.xml 
 ## 参考资料
 
 http://eslint.org/docs/developer-guide/shareable-configs
+
+## 更新历史
+
+- v1.0.1
