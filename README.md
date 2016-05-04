@@ -14,7 +14,7 @@
 npm install eslint-config-cloudinsight@1 eslint@2 babel-eslint@6 eslint-config-airbnb@6 eslint-plugin-react@4 --save-dev
 ```
 
-### 在项目目录下新建 .eslintrc.json 这是 eslint 的默认配置文件
+### 在项目目录下新建 .eslintrc.json, 这是 eslint 的默认配置文件
 
 ```json
 {
