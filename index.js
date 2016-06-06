@@ -44,6 +44,14 @@ module.exports = {
     'react/prefer-es6-class': 0,
     'react/sort-comp': 0,
     'react/jsx-closing-bracket-location': [2, { nonEmpty: 'after-props' }],
-    'react/prefer-stateless-function': 1
+    'react/prefer-stateless-function': 1,
+    'import/no-unresolved': 1,
+    'no-underscore-dangle': 0,
+    'no-restricted-syntax': [
+      2,
+      'DebuggerStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ]
   }
 };
