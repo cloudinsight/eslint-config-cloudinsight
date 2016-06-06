@@ -43,6 +43,7 @@ module.exports = {
     'react/jsx-no-bind': 0,
     'react/prefer-es6-class': 0,
     'react/sort-comp': 0,
-    'react/jsx-closing-bracket-location': [2, { nonEmpty: 'after-props' }]
+    'react/jsx-closing-bracket-location': [2, { nonEmpty: 'after-props' }],
+    'react/prefer-stateless-function': 1
   }
 };
