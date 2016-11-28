@@ -11,7 +11,7 @@
 ### 安装 eslint 和相关的模块
 
 ```sh
-npm install eslint-config-cloudinsight@1 eslint@2 babel-eslint@6 eslint-config-airbnb@6 eslint-plugin-react@4 --save-dev
+npm install eslint-config-cloudinsight@1 eslint@3 babel-eslint@7 eslint-config-airbnb@13 eslint-plugin-react@6 eslint-plugin-jquery@1 --save-dev
 ```
 
 ### 在项目目录下新建 .eslintrc.json, 这是 eslint 的默认配置文件
@@ -53,6 +53,6 @@ node_modules/.bin/eslint --ext es6,jsx,js --format checkstyle -o checkstyle.xml 
 
 http://eslint.org/docs/developer-guide/shareable-configs
 
-## 更新历史
+## 版本
 
-- v1.0.1
+[更新历史](./Changelog.md)
