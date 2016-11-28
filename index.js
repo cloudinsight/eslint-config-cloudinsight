@@ -8,50 +8,44 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    mocha: true
+    jest: true
   },
   globals: {
     BlueWare: false
   },
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-      spread: true,
-      experimentalObjectRestSpread: true
-    }
-  },
   plugins: [
-    'react'
+    'import',
+    'react',
+    'jsx-a11y',
+    'jquery'
   ],
   rules: {
-    'no-dupe-keys': 2,
-    'no-debugger': 2,
-    'no-fallthrough': 2,
-    'no-with': 2,
-    'id-length': 0,
-    'new-cap': 0,
-    'consistent-return': 0,
-    'no-console': 0,
+    'class-methods-use-this': 1,
     'comma-dangle': [2, 'never'],
     complexity: [1, 5],
-    'react/prop-types': 1,
-    'react/display-name': [1, { ignoreTranspilerName: true }],
-    'react/jsx-space-before-closing': 1,
-    'react/jsx-curly-spacing': [2, 'always'],
-    'react/jsx-no-bind': 0,
-    'react/prefer-es6-class': 0,
-    'react/sort-comp': 0,
+    'consistent-return': 1,
+    'import/prefer-default-export': 1,
+    'jsx-a11y/label-has-for': 1,
+    'jsx-a11y/no-static-element-interactions': 1,
+    'jquery/no-bind': 2,
+    'jquery/no-html': 2,
+    'no-mixed-operators': 1,
+    'no-plusplus': 1,
+    'no-prototype-builtins': 1,
+    'no-restricted-syntax': [2, 'DebuggerStatement', 'LabeledStatement', 'WithStatement'],
+    'no-underscore-dangle': 1,
+    'operator-assignment': 1,
+    'react/forbid-prop-types': 1,
     'react/jsx-closing-bracket-location': [2, { nonEmpty: 'after-props' }],
+    'react/jsx-curly-spacing': [2, 'always'],
+    'react/jsx-filename-extension': 0,
+    'react/jsx-no-bind': 1,
+    'react/jsx-no-target-blank': 1,
+    'react/no-find-dom-node': 1,
+    'react/no-string-refs': 1,
+    'react/no-unescaped-entities': 1,
+    'react/no-unused-prop-types': 1,
     'react/prefer-stateless-function': 1,
-    'import/no-unresolved': 1,
-    'no-underscore-dangle': 0,
-    'no-restricted-syntax': [
-      2,
-      'DebuggerStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ]
+    'react/prop-types': 1
   }
-};
+}
